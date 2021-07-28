@@ -1,11 +1,10 @@
 	
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 
+console.log('test loaded');
 
-export function test_chart1(ctx, length, x, y, color) {
+async function test_chart1() {
 	console.log('click!');
-
-	const div = d3.selectAll("div");
 
 	values = Array(5) [1, 3, 2, 6, 4];
 	height = 200
